@@ -12,10 +12,12 @@ public class LinearEq {
     double x;
 
     x=(c-b)/a;
-    System.out.println(a+"*"+"x"+"+"+b+"="+c);
+    System.out.println(a+" * "+"x"+" + "+b+" = "+c);
     System.out.println("x = "+x);
     }
 }
+
+
 
 
 
