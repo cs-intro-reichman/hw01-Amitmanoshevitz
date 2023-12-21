@@ -5,11 +5,11 @@
 public class GenThree {
 	public static void main(String[] args) {
 		int a = Integer.parseInt(args[0]);
-    int b = Integer.parseInt(args[1]);
-    int min = Math.min(a,b);
-    int max = Math.max(a,b);
-    int i = 0;
-    int min1 = max;
+   		int b = Integer.parseInt(args[1]);
+    	int min = Math.min(a,b);
+   	 int max = Math.max(a,b);
+   	 int i = 0;
+   	 int min1 = max;
 
         for (int j = 0; j < 3; j++){
         int ran1 = (int)(Math.random() * (max - min + 1))+ min;
