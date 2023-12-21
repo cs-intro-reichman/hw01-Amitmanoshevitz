@@ -12,7 +12,7 @@ public class GenThree {
 		int min1 = max;
 	
 			for (int j = 0; j < 3; j++){
-			int ran1 = (int)(Math.random()*(max - min + 1));
+			int ran1 = (int)(Math.random()*(max - min));
 			int ran2 = ran1 + min;
 			System.out.println(ran2);
 				if (ran2 < min1){
@@ -20,6 +20,6 @@ public class GenThree {
 				}
 			
 		System.out.println("The minimal generated number was "+ min1);
-	   
+		
 	}
 }
