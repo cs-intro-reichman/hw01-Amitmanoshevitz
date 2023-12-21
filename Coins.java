@@ -4,6 +4,12 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		// Put your code here
+		
+		int num1 = Integer.parseInt(args[0]);
+    
+		int c = num1%25 ;
+		int q = num1/25 ; 
+	
+		System.out.println(q  + " " + "quarters" + " " + c + " " + "cents");
 	}
 }
